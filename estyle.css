@@ -1,0 +1,151 @@
+body{
+	margin: 0px;
+	font-family: Verdana, Georgia, serif;
+	font-size: 14px;
+	background-image: url('late.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+}
+#navbar ul {
+	padding: 1em;
+	list-style-type: none;
+	text-align: center;
+	background-color: #white;
+	border-radius: none;
+}
+#navbar ul li {
+	display: inline;
+}
+#navbar ul li a {
+	text-decoration: none;
+	font-family: Bold;
+	padding: .2em 1em;
+	color: #red;
+	background-color: #pink;
+}
+#navbar ul li a:hover {
+	color: #pink;
+	background-color: #fff;
+}
+h1 {
+	font-size: 180%;
+	color: #white;
+}
+footer {
+	width: 100%;
+    color: white;
+    background-color: black;
+	text-align: center;
+	bottom: 0;
+	position: fixed;
+	background-attachment: fixed;
+	font-size-adjust: adjust;
+	
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+
+}
+#stibo {
+	padding: 15px;
+	margin: 100%; 
+	border-image: center;
+
+}
+.side {
+background-color: #e5e4d7;
+margin: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 105%;
+float-right;
+width:260px;
+}
+.sidee {
+background-color: #e5e4d7;
+margin: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 105%;
+float-left;
+width:260px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	background-color: #fff;
+	padding: 10px;
+
+}
+ article{
+  background-color: rgba(244, 255, 255, 0.8);
+  text-align: none;
+  padding: 20px 0;
+  font-size: 14px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
